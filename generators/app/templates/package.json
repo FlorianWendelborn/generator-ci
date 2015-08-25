@@ -1,0 +1,21 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.0.1",
+  "description": "<% shortDescription %>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "travis": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<%= githubUsername %>/<%= projectName %>.git"
+  },
+  "keywords": [],
+  "author": "<%= githubUsername %>",
+  "license": "<%= spdx %>",
+  "bugs": {
+    "url": "https://github.com/<%= githubUsername %>/<%= projectName %>/issues"
+  },
+  "homepage": "https://github.com/<%= githubUsername %>/<%= projectName %>#readme"
+}

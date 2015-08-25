@@ -1,0 +1,33 @@
+{
+  "name": "generator-ci",
+  "version": "0.0.1",
+  "description": "A yeoman generator pre-configured for travis-ci, coveralls, codeclimate and inch-ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodekeract/generator-ci.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "yeoman",
+    "yo",
+    "generator",
+    "travis-ci",
+    "coveralls.io",
+    "codeclimate",
+    "inch-ci",
+    "yeoman-generator"
+  ],
+  "author": "Dodekeract",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dodekeract/generator-ci/issues"
+  },
+  "homepage": "https://github.com/dodekeract/generator-ci#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.20.3"
+  }
+}
