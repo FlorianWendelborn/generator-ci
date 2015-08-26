@@ -11,7 +11,7 @@ module.exports = generators.Base.extend({
 		}, {
 			type: 'input',
 			name: 'githubUsername',
-			message: 'Your Github Username'
+			message: 'Your GitHub Username'
 		}, {
 			type: 'input',
 			name: 'shortDescription',
