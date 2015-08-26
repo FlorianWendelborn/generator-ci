@@ -13,7 +13,7 @@ Generates a project preconfigured for travis-ci, coveralls.io, codeclimate and i
 ## Options
 
 All options can be set by answering [yo](http://yeoman.io)'s question dialog.
-This generator will ask the following information:
+This generator will ask for the following information:
 - Project Name
 - GitHub Username
 - Short Project Description
